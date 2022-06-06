@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CV project</title>
+        <meta charset = "UTF-8">
+        <meta name = "author" content = "109403043林靖祐">
+        <meta name="CV" content = "109403043的簡歷">
+        <link rel = "stylesheet" href = "mystyle.css">
+    </head>
+    <body><!--css1.設定背景圖片css2. 設定背景圖片位置 css3.設定背景圖片不重複 css4.設定讓背景圖片不跟著卷軸滾動-->
+        <div>
+            <br>
+            <br>
+            <br>
+            <ul><!--html 1.ul--><!--css5.設定navigation bar 外框-->
+                <li><a href="#home">Personal Information</a></li><!--html 2.a,3.li--><!--css6.在navigation bar中設定靠左-->
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Education</a>
+                    <div class="dropdown-content">
+                        <a href="#High">High School</a>
+                        <a href="#College">College</a>
+                    </div>
+                <li><a href="#experient">Work Experiences</a></li>
+                <li class="email"><a class="active" href="#about">Email</a></li><!--css7.在navigation bar中設定靠右-->
+            </ul>
+        </div>
+        <section id="home" ><!--html4.section-->
+            <br><!--html5.br-->
+            <h1>個人資料</h1><!--html6.h1--><!--css8.改字體大小*/-->
+            <p>林靖祐</p><!--html7.p-->
+            <p>學號:109403043</p>
+            <hr><!--html8.hr-->
+        </section>
+        <section>
+            <div id="High">
+            <br><!--html9.br-->
+            <h1>高中</h1>
+            <p>西松高中</p><!--絕對路徑圖片-->
+            <img src="https://upload.wikimedia.org/wikipedia/zh/4/40/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AB%8B%E8%A5%BF%E6%9D%BE%E9%AB%98%E4%B8%AD%E6%A0%A1%E5%BE%BD.png"><!--html10.image--><!--css2.設定圖片長寬*/-->
+            </div>
+            <div id="College">
+            <br>
+            <h1>大學</h1>
+            <p>中央大學</p><!--相對路徑圖片-->
+            <img src="20210607_03115877.png">
+            </div>
+            <hr>
+        </section> 
+        <section id="experient"> 
+            <br>
+            <h1>打工仔經歷</h1>
+            <p>美廉社</p>
+            <img src="美廉社.jpg">
+            <p>肯德基</p>
+            <img src="KFC.png">
+            <br><br><br><br><br><br>
+            <hr>
+        </section>
+        <section id="about">
+            <br>
+            <h1>聯絡Email</h1>
+            <p>samljin123@gmail.com</p>
+        </section>
+        <script>
+            alert('你正在觀看林靖祐的個人履歷');
+        </script>
+    </body>
+</html>
